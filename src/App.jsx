@@ -1,14 +1,15 @@
-import React from "react";
-import HeroLeft from "./components/HeroLeft";
-import Sidebar from "./components/Sidebar";
-import MissionSection from "./components/MissionSection";
-import GlobalPresence from "./components/GlobalPresence";
+import React from 'react';
+import HeroLeft from './components/HeroLeft';
+import Sidebar from './components/Sidebar';
+import MissionSection from './components/MissionSection';
+import GlobalPresence from './components/GlobalPresence';
+import JoinTo from './components/JoinTo';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className='min-h-screen bg-white'>
 
-      <div className="flex">
+      <div className='flex'>
         <HeroLeft />
         <Sidebar />
       </div>
@@ -18,6 +19,7 @@ function App() {
 
 
       <GlobalPresence />
+      <JoinTo />
     </div>
   );
 }
